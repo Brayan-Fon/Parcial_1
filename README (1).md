@@ -11,7 +11,7 @@ El uso de `=` dentro de una condición genera un `SyntaxError`.
 
 ## 2. Corrección aplicada
 
-
+´´´
 def cuenta_pares(lista):
     contador = 0
     for n in lista:
@@ -20,7 +20,7 @@ def cuenta_pares(lista):
     return contador
 
 print(cuenta_pares([1, 2, 3, 4, 5, 6]))
-
+´´´ 
 
 ---
 
