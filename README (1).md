@@ -11,7 +11,7 @@ El uso de `=` dentro de una condición genera un `SyntaxError`.
 
 ## 2. Corrección aplicada
 
-´´´
+```python
 def cuenta_pares(lista):
     contador = 0
     for n in lista:
@@ -20,7 +20,7 @@ def cuenta_pares(lista):
     return contador
 
 print(cuenta_pares([1, 2, 3, 4, 5, 6]))
-´´´ 
+```
 
 ---
 
@@ -36,8 +36,8 @@ En realidad, las dimensiones del rectángulo se guardaron como atributos de inst
 Por eso, la línea correcta debe referenciar esos atributos con `self`.
 
 ### Correccion aplicada
-
+```python
 def area(self):
         return self.base * self.altura
-
+```
 
